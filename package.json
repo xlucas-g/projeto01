@@ -1,0 +1,22 @@
+{
+  "name": "projeto01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "cli": "node cli.js ./arquivos/texto.md",
+    "cli2": "node cli.js ./arquivos/google.md",
+    "cli3": "node cli.js ./arquivos/googlee.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Primeiro prog da UNICSUL",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "fs": "^0.0.1-security",
+    "jest": "^29.5.0",
+    "node-fetch": "^3.3.1",
+    "require": "^2.4.20"
+  }
+}
